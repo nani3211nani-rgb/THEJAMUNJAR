@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="THE JAMUN JAR — Premium Gulab Jamuns freshly packed and delivered across Hyderabad. Sweetness in Every Jar.">
+  <title>THE JAMUN JAR | Sweetness in Every Jar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <div class="announcement">
+      <p>Same-day delivery in selected Hyderabad locations · Use code <strong>JAMUN10</strong> on orders above ₹499</p>
+    </div>
+    <nav class="navbar" aria-label="Primary">
+      <a class="brand" href="#home">
+        <img class="brand-logo-img" src="assets/logo.svg" alt="THE JAMUN JAR Logo" width="46" height="46">
+        <span class="brand-text">
+          <span class="brand-name">THE<br>JAMUN<br>JAR</span>
+          <span class="brand-tagline">Sweetness in Every Jar</span>
+        </span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#offers">Offers</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <button class="cart-btn" id="cartOpenBtn" aria-label="Open shopping cart">
+        <i class="fa-solid fa-bag-shopping" aria-hidden="true"></i>
+        <span>Cart</span>
+        <span class="cart-count" id="cartCount">0</span>
+      </button>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Premium Indian Desserts · Hyderabad</p>
+        <h1>Sweetness in Every Jar</h1>
+        <p class="hero-sub">Premium Gulab Jamuns, freshly packed and delivered to your doorstep.</p>
+        <div class="hero-actions">
+          <a class="btn btn-gold" href="#products">Shop Now</a>
+          <a class="btn btn-outline" href="#products">Explore Products</a>
+        </div>
+        <ul class="hero-points">
+          <li><i class="fa-solid fa-leaf" aria-hidden="true"></i> Freshly prepared</li>
+          <li><i class="fa-solid fa-truck" aria-hidden="true"></i> Hyderabad delivery</li>
+          <li><i class="fa-solid fa-gift" aria-hidden="true"></i> Gift-ready jars</li>
+        </ul>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="hero-frame">
+          <img src="assets/hero-jamun.jpg" alt="Premium glass jar filled with glossy golden-brown Gulab Jamuns">
+          <div class="hero-badge">
+            <span>From</span>
+            <strong>₹149</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-head reveal">
+        <p class="eyebrow">Our Story</p>
+        <h2>About THE JAMUN JAR</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-copy reveal">
+          <p>THE JAMUN JAR is a premium online dessert store bringing delicious, soft and juicy Gulab Jamuns straight to your doorstep. We combine traditional Indian sweetness with modern packaging and convenient online ordering.</p>
+          <p>Based in Hyderabad, Telangana, we serve college students, young professionals, families, sweet lovers and gift buyers looking for desserts online.</p>
+          <ul class="check-list">
+            <li>Freshly Prepared</li>
+            <li>Premium Ingredients</li>
+            <li>Hygienic Packaging</li>
+            <li>Fast Local Delivery</li>
+          </ul>
+        </div>
+        <aside class="about-card reveal">
+          <h3>Store Snapshot</h3>
+          <dl>
+            <dt>Brand</dt><dd>THE JAMUN JAR</dd>
+            <dt>Category</dt><dd>Premium Gulab Jamun</dd>
+            <dt>Location</dt><dd>Hyderabad, Telangana, India</dd>
+            <dt>Hours</dt><dd>10:00 AM – 9:00 PM</dd>
+          </dl>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section audience" id="audience">
+      <div class="section-head reveal">
+        <p class="eyebrow">Target Customers</p>
+        <h2>Who We Serve</h2>
+      </div>
+      <div class="card-grid four">
+        <article class="info-card reveal">
+          <span class="icon-wrap" aria-hidden="true">🎓</span>
+          <h3>Students</h3>
+          <p>Affordable sweet treats for college students.</p>
+        </article>
+        <article class="info-card reveal">
+          <span class="icon-wrap" aria-hidden="true">👨‍👩‍👧</span>
+          <h3>Families</h3>
+          <p>Perfect for family celebrations.</p>
+        </article>
+        <article class="info-card reveal">
+          <span class="icon-wrap" aria-hidden="true">🎁</span>
+          <h3>Gift Buyers</h3>
+          <p>Beautiful dessert jars for gifting.</p>
+        </article>
+        <article class="info-card reveal">
+          <span class="icon-wrap" aria-hidden="true">💼</span>
+          <h3>Professionals</h3>
+          <p>Quick dessert options for office celebrations.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section products" id="products">
+      <div class="section-head reveal">
+        <p class="eyebrow">The Collection</p>
+        <h2>Our Signature Jars</h2>
+        <p class="lede">Choose a favourite, add it to your cart, and we will pack it fresh.</p>
+      </div>
+
+      <div class="product-tools reveal">
+        <label class="search-field" for="productSearch">
+          <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+          <input type="search" id="productSearch" placeholder="Search for your favourite sweet..." autocomplete="off">
+        </label>
+        <div class="filter-row" role="group" aria-label="Filter products">
+          <button class="chip active" data-filter="all" type="button">All</button>
+          <button class="chip" data-filter="classic" type="button">Classic</button>
+          <button class="chip" data-filter="premium" type="button">Premium</button>
+          <button class="chip" data-filter="chocolate" type="button">Chocolate</button>
+          <button class="chip" data-filter="gift" type="button">Gifting</button>
+        </div>
+      </div>
+
+      <div class="product-grid" id="productGrid"></div>
+      <p class="empty-state hidden" id="noProducts">No products found.</p>
+    </section>
+
+    <section class="section offer" id="offers">
+      <div class="offer-banner reveal">
+        <div>
+          <p class="eyebrow gold">Limited Time</p>
+          <h2>Sweet Deal of the Day</h2>
+          <p>Get 10% OFF on orders above ₹499</p>
+          <p class="coupon-pill">Coupon: <strong>JAMUN10</strong></p>
+          <a class="btn btn-cream" href="#products">Shop Offer</a>
+        </div>
+        <div class="offer-visual" aria-hidden="true">
+          <span>10%</span>
+          <small>OFF</small>
+        </div>
+      </div>
+    </section>
+
+    <section class="section ad-section" id="advertisement">
+      <div class="ad-banner reveal">
+        <p class="ad-kicker">THE JAMUN JAR · Hyderabad</p>
+        <h2>CRAVING SOMETHING SWEET?</h2>
+        <p class="ad-lead">Get Premium Gulab Jamuns Delivered to Your Doorstep!</p>
+        <p class="ad-highlight">10% OFF on orders above ₹499</p>
+        <p class="coupon-pill light">Use Coupon: <strong>JAMUN10</strong></p>
+        <a class="btn btn-gold lg" href="#products">ORDER NOW</a>
+      </div>
+    </section>
+
+    <section class="section why" id="why">
+      <div class="section-head reveal">
+        <p class="eyebrow">Our Promise</p>
+        <h2>Why Choose Us</h2>
+      </div>
+      <div class="card-grid four">
+        <article class="info-card reveal">
+          <span class="icon-wrap">🍯</span>
+          <h3>Premium Quality</h3>
+          <p>Made with carefully selected ingredients.</p>
+        </article>
+        <article class="info-card reveal">
+          <span class="icon-wrap">👨‍🍳</span>
+          <h3>Freshly Prepared</h3>
+          <p>Prepared fresh for every order.</p>
+        </article>
+        <article class="info-card reveal">
+          <span class="icon-wrap">📦</span>
+          <h3>Hygienic Packaging</h3>
+          <p>Packed safely to maintain freshness.</p>
+        </article>
+        <article class="info-card reveal">
+          <span class="icon-wrap">🛵</span>
+          <h3>Fast Delivery</h3>
+          <p>Delivered quickly across Hyderabad.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section steps" id="how">
+      <div class="section-head reveal">
+        <p class="eyebrow">Simple Ordering</p>
+        <h2>How It Works</h2>
+      </div>
+      <ol class="step-grid">
+        <li class="step-card reveal">
+          <span class="step-num">01</span>
+          <h3>Choose Your Favourite</h3>
+          <p>Browse our jars and pick the sweetness you love.</p>
+        </li>
+        <li class="step-card reveal">
+          <span class="step-num">02</span>
+          <h3>Add to Cart</h3>
+          <p>Select quantity and keep shopping, or go to checkout.</p>
+        </li>
+        <li class="step-card reveal">
+          <span class="step-num">03</span>
+          <h3>Choose Payment</h3>
+          <p>Pay with UPI, card or Cash on Delivery.</p>
+        </li>
+        <li class="step-card reveal">
+          <span class="step-num">04</span>
+          <h3>Enjoy Your Jamuns</h3>
+          <p>We deliver fresh, hygienically packed jars to your door.</p>
+        </li>
+      </ol>
+    </section>
+
+    <section class="section reviews" id="reviews">
+      <div class="section-head reveal">
+        <p class="eyebrow">Kind Words</p>
+        <h2>Customer Reviews</h2>
+      </div>
+      <div class="review-grid">
+        <article class="review-card reveal">
+          <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <p>“Absolutely delicious! The jamuns were soft, juicy and perfectly sweet.”</p>
+          <footer>
+            <strong>Ananya</strong>
+            <span>Hyderabad</span>
+          </footer>
+        </article>
+        <article class="review-card reveal">
+          <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <p>“Beautiful packaging and great taste. Perfect for gifting.”</p>
+          <footer>
+            <strong>Rahul</strong>
+            <span>Gachibowli</span>
+          </footer>
+        </article>
+        <article class="review-card reveal">
+          <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <p>“Ordered for our family gathering and everyone loved them.”</p>
+          <footer>
+            <strong>Priya</strong>
+            <span>Banjara Hills</span>
+          </footer>
+        </article>
+      </div>
+      <p class="demo-note">Demo customer reviews created for academic project.</p>
+    </section>
+
+    <section class="section payment" id="payment">
+      <div class="section-head reveal">
+        <p class="eyebrow">Checkout Confidence</p>
+        <h2>Secure &amp; Convenient Payments</h2>
+      </div>
+      <div class="pay-grid">
+        <article class="pay-card reveal"><i class="fa-solid fa-mobile-screen" aria-hidden="true"></i><h3>UPI</h3></article>
+        <article class="pay-card reveal"><i class="fa-brands fa-google" aria-hidden="true"></i><h3>Google Pay</h3></article>
+        <article class="pay-card reveal"><i class="fa-solid fa-mobile-retro" aria-hidden="true"></i><h3>PhonePe</h3></article>
+        <article class="pay-card reveal"><i class="fa-regular fa-credit-card" aria-hidden="true"></i><h3>Credit/Debit Cards</h3></article>
+        <article class="pay-card reveal"><i class="fa-solid fa-hand-holding-dollar" aria-hidden="true"></i><h3>Cash on Delivery</h3></article>
+      </div>
+      <p class="demo-note">Demo payment interface for educational purposes.</p>
+    </section>
+
+    <section class="section delivery" id="delivery">
+      <div class="section-head reveal">
+        <p class="eyebrow">Hyderabad First</p>
+        <h2>Fast &amp; Fresh Delivery</h2>
+      </div>
+      <ul class="delivery-facts reveal">
+        <li>📍 Hyderabad, Telangana</li>
+        <li>🛵 Home Delivery Available</li>
+        <li>⏱ Same-Day Delivery for Selected Locations</li>
+        <li>📦 Hygienic &amp; Secure Packaging</li>
+        <li>🚚 Delivery charges depend on location.</li>
+      </ul>
+      <p class="delivery-rule">Orders below ₹500 include a ₹40 delivery fee. Orders of ₹500 and above enjoy <strong>FREE delivery</strong>.</p>
+      <div class="card-grid three">
+        <article class="info-card reveal">
+          <h3>Fresh</h3>
+          <p>Prepared close to dispatch so every jar stays soft and juicy.</p>
+        </article>
+        <article class="info-card reveal">
+          <h3>Fast</h3>
+          <p>Local Hyderabad routes keep your sweets moving quickly.</p>
+        </article>
+        <article class="info-card reveal">
+          <h3>Safe</h3>
+          <p>Sealed jars and careful packing protect flavour and freshness.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="section-head reveal">
+        <p class="eyebrow">We Are Here</p>
+        <h2>Get in Touch</h2>
+      </div>
+      <div class="contact-grid">
+        <address class="contact-card reveal">
+          <h3>THE JAMUN JAR</h3>
+          <p>Hyderabad, Telangana, India</p>
+          <p><strong>Phone:</strong> <a href="tel:+91XXXXXXXXXX">+91 XXXXX XXXXX</a></p>
+          <p><strong>Email:</strong> <a href="mailto:thejamunjar@example.com">thejamunjar@example.com</a></p>
+          <p><strong>Business Hours:</strong> 10:00 AM – 9:00 PM</p>
+        </address>
+        <form class="contact-form reveal" id="contactForm" novalidate>
+          <div class="field">
+            <label for="contactName">Name</label>
+            <input id="contactName" name="name" type="text" required autocomplete="name" placeholder="Your Full Name">
+          </div>
+          <div class="field">
+            <label for="contactEmail">Email</label>
+            <input id="contactEmail" name="email" type="email" required autocomplete="email" placeholder="yourname@example.com">
+          </div>
+          <div class="field">
+            <label for="contactMessage">Message</label>
+            <textarea id="contactMessage" name="message" rows="4" required placeholder="How can we help you?"></textarea>
+          </div>
+          <p class="form-error hidden" id="contactError" role="alert"></p>
+          <p class="form-success hidden" id="contactSuccess" role="status">Thank you! Your message has been received.</p>
+          <button class="btn btn-gold" type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div>
+        <h2>THE JAMUN JAR</h2>
+        <p>Sweetness in Every Jar</p>
+        <p class="footer-city">Hyderabad, Telangana, India</p>
+      </div>
+      <div>
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#offers">Offers</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Customer Support</h3>
+        <ul>
+          <li><a href="#delivery">Delivery</a></li>
+          <li><a href="#payment">Payment</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Follow Us</h3>
+        <div class="socials">
+          <a href="#contact" aria-label="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+          <a href="#contact" aria-label="Facebook"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
+          <a href="#contact" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </div>
+    <p class="copyright">© 2026 THE JAMUN JAR. All Rights Reserved.</p>
+    <p class="assignment-note">Created as an E-Commerce College Assignment.</p>
+  </footer>
+
+  <div class="overlay" id="overlay" hidden></div>
+
+  <aside class="cart-drawer" id="cartDrawer" aria-labelledby="cartTitle" role="dialog" aria-modal="true" hidden>
+    <header class="drawer-head">
+      <h2 id="cartTitle">Your Cart</h2>
+      <button class="icon-btn" id="cartCloseBtn" aria-label="Close cart"><i class="fa-solid fa-xmark" aria-hidden="true"></i></button>
+    </header>
+    <div class="cart-body" id="cartBody"></div>
+    <div class="cart-footer" id="cartFooter">
+      <form class="coupon-form" id="couponForm">
+        <label for="couponInput">Coupon code</label>
+        <div class="coupon-row">
+          <input id="couponInput" type="text" placeholder="JAMUN10" maxlength="20" autocomplete="off">
+          <button class="btn btn-outline sm" type="submit">Apply</button>
+        </div>
+        <p class="coupon-msg" id="couponMsg" role="status"></p>
+      </form>
+      <dl class="totals" id="cartTotals"></dl>
+      <button class="btn btn-gold full" id="checkoutBtn" type="button">Checkout</button>
+      <button class="btn btn-ghost full" id="continueShopping" type="button">Continue Shopping</button>
+    </div>
+  </aside>
+
+  <div class="modal" id="checkoutModal" role="dialog" aria-modal="true" aria-labelledby="checkoutTitle" hidden>
+    <div class="modal-card">
+      <header class="drawer-head">
+        <h2 id="checkoutTitle">Checkout &amp; Delivery</h2>
+        <button class="icon-btn" id="checkoutCloseBtn" aria-label="Close checkout"><i class="fa-solid fa-xmark" aria-hidden="true"></i></button>
+      </header>
+      <div class="checkout-summary" id="checkoutSummary">
+        <div class="checkout-summary-row">
+          <span>Items to deliver: <strong id="checkoutItemCount">0 items</strong></span>
+          <span>Payable Amount: <strong class="checkout-payable" id="checkoutGrandTotal">₹0</strong></span>
+        </div>
+      </div>
+      <form id="checkoutForm" novalidate>
+        <div class="form-grid">
+          <div class="field">
+            <label for="fullName">Full Name</label>
+            <input id="fullName" name="fullName" type="text" required autocomplete="name">
+          </div>
+          <div class="field">
+            <label for="mobile">Mobile Number</label>
+            <input id="mobile" name="mobile" type="tel" inputmode="numeric" required autocomplete="tel" placeholder="10-digit number">
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required autocomplete="email">
+          </div>
+          <div class="field span-2">
+            <label for="address">Delivery Address</label>
+            <textarea id="address" name="address" rows="3" required autocomplete="street-address"></textarea>
+          </div>
+          <div class="field">
+            <label for="city">City</label>
+            <input id="city" name="city" type="text" required value="Hyderabad" autocomplete="address-level2">
+          </div>
+          <div class="field">
+            <label for="pincode">Pincode</label>
+            <input id="pincode" name="pincode" type="text" inputmode="numeric" required maxlength="6" autocomplete="postal-code">
+          </div>
+        </div>
+        <fieldset class="pay-options">
+          <legend>Payment options</legend>
+          <label><input type="radio" name="payment" value="UPI" required> UPI</label>
+          <label><input type="radio" name="payment" value="Credit/Debit Card"> Credit/Debit Card</label>
+          <label><input type="radio" name="payment" value="Cash on Delivery"> Cash on Delivery</label>
+        </fieldset>
+        <p class="demo-note">Demo payment interface for educational purposes. No real payment is processed.</p>
+        <p class="form-error hidden" id="checkoutError" role="alert"></p>
+        <button class="btn btn-gold full" type="submit">Place Order</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="modal" id="successModal" role="dialog" aria-modal="true" aria-labelledby="successTitle" hidden>
+    <div class="modal-card success-card">
+      <h2 id="successTitle">🎉 Order Placed Successfully!</h2>
+      <p>Thank you for ordering from THE JAMUN JAR.</p>
+      <p class="order-id" id="orderIdText"></p>
+      <button class="btn btn-gold" id="successCloseBtn" type="button">Back to Store</button>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
