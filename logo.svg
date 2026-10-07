@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <!-- Gold lid gradient -->
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5D77F" />
+      <stop offset="50%" stop-color="#D4A017" />
+      <stop offset="100%" stop-color="#996D0A" />
+    </linearGradient>
+    
+    <!-- Glass Jar syrup gradient -->
+    <linearGradient id="jarGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255, 248, 237, 0.4)" />
+      <stop offset="40%" stop-color="rgba(212, 160, 23, 0.25)" />
+      <stop offset="100%" stop-color="rgba(90, 45, 26, 0.35)" />
+    </linearGradient>
+
+    <!-- Gulab Jamun radial gradient -->
+    <radialGradient id="jamunGradient1" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#C77538" />
+      <stop offset="40%" stop-color="#7A3919" />
+      <stop offset="100%" stop-color="#3E1A0C" />
+    </radialGradient>
+    <radialGradient id="jamunGradient2" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#D98A48" />
+      <stop offset="45%" stop-color="#8B401C" />
+      <stop offset="100%" stop-color="#441C0C" />
+    </radialGradient>
+
+    <!-- Filter for subtle luxury glow -->
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="3" flood-color="#2B1B12" flood-opacity="0.15" />
+    </filter>
+  </defs>
+
+  <!-- Outer Jar Outline & Glass Body -->
+  <rect x="25" y="32" width="70" height="74" rx="18" fill="url(#jarGradient)" stroke="#5A2D1A" stroke-width="3" filter="url(#shadow)" />
+  
+  <!-- Glass Reflection Highlight -->
+  <path d="M 32 38 Q 32 94 36 96" stroke="rgba(255, 255, 255, 0.65)" stroke-width="2.5" fill="none" stroke-linecap="round" />
+
+  <!-- Syrup Liquid Level -->
+  <path d="M 27 58 Q 60 62 93 58 L 93 88 Q 93 104 77 104 L 43 104 Q 27 104 27 88 Z" fill="rgba(212, 160, 23, 0.2)" />
+
+  <!-- Gulab Jamuns inside Jar -->
+  <!-- Jamun 1 (Bottom Left) -->
+  <circle cx="48" cy="82" r="15" fill="url(#jamunGradient1)" stroke="#5A2D1A" stroke-width="1" />
+  <circle cx="43" cy="77" r="3.5" fill="rgba(255, 255, 255, 0.45)" />
+
+  <!-- Jamun 2 (Bottom Right) -->
+  <circle cx="72" cy="79" r="16" fill="url(#jamunGradient2)" stroke="#5A2D1A" stroke-width="1" />
+  <circle cx="67" cy="74" r="4" fill="rgba(255, 255, 255, 0.45)" />
+
+  <!-- Jamun 3 (Top Center) -->
+  <circle cx="60" cy="56" r="14" fill="url(#jamunGradient1)" stroke="#5A2D1A" stroke-width="1" />
+  <circle cx="56" cy="51" r="3.2" fill="rgba(255, 255, 255, 0.5)" />
+
+  <!-- Jar Neck -->
+  <rect x="34" y="24" width="52" height="10" rx="3" fill="#FFF8ED" stroke="#5A2D1A" stroke-width="2.5" />
+
+  <!-- Golden Jar Lid -->
+  <rect x="30" y="14" width="60" height="13" rx="5" fill="url(#goldGradient)" stroke="#5A2D1A" stroke-width="2" filter="url(#shadow)" />
+  <rect x="34" y="17" width="52" height="3" rx="1.5" fill="#FFEAA7" opacity="0.8" />
+
+  <!-- Small Ribbon / Tag -->
+  <path d="M 78 28 L 86 42 L 78 40 Z" fill="#D4A017" stroke="#5A2D1A" stroke-width="1" />
+</svg>
